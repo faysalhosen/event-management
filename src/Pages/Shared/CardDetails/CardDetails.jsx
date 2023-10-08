@@ -15,7 +15,7 @@ const CardDetails = () => {
           </figure>
           <div className="card-body items-center text-center">
             <h2 className="card-title">{title}</h2>
-            <p>{concert_price}</p>
+            <p>Price: {concert_price}$</p>
             <p>{details}</p>
             <div className="card-actions">
             </div>
