@@ -1,0 +1,52 @@
+
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/fHDbDpy/Rock-Concert-Extravaganza1.jpg",
+      "title": "Rock Concert Extravaganza",
+      "details": "Join us for an unforgettable night of rock music featuring the biggest bands in the industry. Get ready to headbang and rock out to your favorite tunes.",
+      "concert_price": 150,
+      "artist_id": 1
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/JQyDST0/Pop-Sensation-Live2.jpg",
+      "title": "Pop Sensation Live",
+      "details": "Experience the magic of pop music with top-notch artists performing their chart-topping hits. It's going to be a night full of energy and excitement.",
+      "concert_price": 120,
+      "artist_id": 2
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/124NG60/Jazz-in-the-Park3.jpg",
+      "title": "Jazz in the Park",
+      "details": "Relax and unwind with smooth jazz melodies in a beautiful outdoor setting. Enjoy the soothing sounds of saxophones and pianos under the stars.",
+      "concert_price": 130,
+      "artist_id": 3
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/09rFDTH/Country-Music-Festival4.jpg",
+      "title": "Country Music Festival",
+      "details": "Yeehaw! Get your cowboy boots on and join us for a country music extravaganza. Dance to the twangy tunes and enjoy some good ol' southern BBQ.",
+      "concert_price": 160,
+      "artist_id": 4
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/YfmK2Rz/EDM-Rave-Night6.jpg",
+      "title": "EDM Rave Night",
+      "details": "Dance the night away to electrifying beats from the best EDM DJs in the world. Get ready for a sensory overload of music and lights.",
+      "concert_price": 140,
+      "artist_id": 2
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/VHCHrmp/Blues-Soul-Revue7.jpg",
+      "title": "Blues & Soul Revue",
+      "details": "Experience the soulful melodies and heart-wrenching blues tunes performed by legendary artists. Get lost in the music and feel the emotions.",
+      "concert_price": 125,
+      "artist_id": 3
+    }
+  ]
+
