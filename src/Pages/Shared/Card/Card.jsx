@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Card = ({data}) => {
     const {id, image, title, details, concert_price, } = data || {};
   return (
@@ -14,7 +16,7 @@ const Card = ({data}) => {
           <h2 className="card-title">{title}</h2>
           <p>{concert_price}</p>
           <div className="card-actions">
-            <button className="btn btn-primary">Details</button>
+            <Link to={`details/${id}`}><button className="btn btn-primary">Details</button></Link>
           </div>
         </div>
       </div>
