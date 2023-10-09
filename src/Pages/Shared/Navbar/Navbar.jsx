@@ -1,6 +1,19 @@
+import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from "../../../Provider/AuthProvider";
 
 const Navbar = () => {
+  const {user, logOut} = useContext(AuthContext);
+  console.log(user);
+  const handleSignOut = () => {
+    logOut()
+    .then(() => {
+
+    })
+    .catch(() => {
+
+    })
+  }
   return (
     <header className="bg-gradient-to-r from-[rgba(126,144,254,0.05)] to-[rgba(152,115,255,0.05)]">
       <div className="container">
@@ -56,12 +69,17 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="navbar-end">
-            <Link
-              to={"/jobs"}
+            {
+             user? <button onClick={handleSignOut}  className="btn btn-primary">Sign Out</button>
+             : 
+             <Link
+              to={"/login"}
               className="btn btn-primary h-auto min-h-[40px] px-3"
             >
               Login
             </Link>
+            }
+            
           </div>
         </nav>
       </div>
