@@ -22,7 +22,7 @@ const Gallery = () => {
   return (
     <div>
       <h1 className="text-3xl text-center">Gallery</h1>
-      <Slider className="w-70%" {...settings}>
+      <Slider  {...settings}>
         {images &&
           images.map((image) => (
             <div key={image.id} className="flex items-center justify-center">

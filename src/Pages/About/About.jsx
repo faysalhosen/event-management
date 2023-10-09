@@ -1,9 +1,9 @@
 const About = () => {
   return (
     <div className="space-y-3">
-      <div>
+      <div className="m-5  items-center justify-center">
         <h2 className="text-3xl">About Us</h2>
-        <p>
+        <p className="">
           Welcome to Concert Ticket Hub, your premier destination for
           discovering and purchasing tickets to the hottest concerts and live
           events around the world. We are passionate about bringing the joy of

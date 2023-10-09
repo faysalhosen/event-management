@@ -4,7 +4,7 @@ const Card = ({data}) => {
     const {id, image, title, details, concert_price, } = data || {};    
   return (
     <div>
-      <div className=" text-left card w-96  bg-base-100 shadow-xl">
+      <div className=" text-left card bg-base-100 shadow-xl">
         <figure className="px-5 pt-5">
           <img
             src={image}
@@ -12,7 +12,7 @@ const Card = ({data}) => {
             className="rounded-xl"
           />
         </figure>
-        <div className="card-body items-center text-center">
+        <div className="card-body items-center justify-center text-center">
           <h2 className="card-title">{title}</h2>
           <h3 className="text-left">{details}</h3>
           <p className="text-left"> price:{concert_price}$</p>
