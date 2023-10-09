@@ -1,6 +1,7 @@
 import { useLoaderData } from "react-router-dom";
 import Banner from "../Shared/Banner/Banner";
 import Card from "../Shared/Card/Card";
+import Gallery from "../Shared/Gallery/Gallery";
 
 const Home = () => {
   const Alldata = useLoaderData();
@@ -12,6 +13,7 @@ const Home = () => {
           <Card key={data.id} data={data}></Card>
         ))}
       </div>
+      <Gallery></Gallery>
     </div>
   );
 };
